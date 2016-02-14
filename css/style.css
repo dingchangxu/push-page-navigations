@@ -57,21 +57,21 @@ header {
 
 .navigation ul li {
   list-style-type: none;
-  border-top: 1px solid #ccc;
+  border-top: 1px solid #F6F6F6;
 }
 
 .navigation ul a {
   display: block;
   padding: .5em 1em;
-  border-bottom: 1px solid #ccc;
-  text-decoration: #222;
-  color: #222;
+  border-bottom: 1px solid #F6F6F6;
+  text-decoration: #141414;
+  color: #141414;
   text-align: center;
 }
 
 .toggle-btn,
 .close-btn {
-  color: #222;
+  color: #141414;
   text-decoration: none;
   height: 40px;
   width: 40px;
@@ -79,7 +79,7 @@ header {
 
 .toggle-btn:before,
 .close-btn:before {
-  border: 1px solid #ccc;
+  border: 1px solid #F6F6F6;
   display: inline-block;
   padding: 13px 11px;
   height: 40px;
@@ -144,4 +144,35 @@ header {
 body.noscript .navigation {
   position: static;
   right: auto;
+}
+
+h1 {
+  margin: 0;
+  margin-top: 5px;
+}
+
+.navigation ul {
+  margin: 0;
+}
+
+.navigation ul li {
+  float: left;
+  display: inline-block;
+  width: 25%;
+}
+
+.navigation ul li:first-child a {
+  border-top: none;
+}
+
+.navigation ul li a {
+  border-bottom: none;
+  text-decoration: none;
+  text-align: center;
+  background-color: #fff;
+}
+
+.navigation ul li a:hover {
+  background-color: #BAA2B9;
+  color: #141414;
 }
