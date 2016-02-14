@@ -10,6 +10,7 @@ html {
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 	text-size-adjust: 100%;
+  background-color: $light-grey;
 }
 
 
@@ -121,7 +122,7 @@ header {
   } //max-width media-query
 
   //Reset the page when desktop, even id nac is taggled open
-  @media only screen and (min-width: 60em){
+  @media only screen and (min-width: 80em){
     .toggle-btn,
     .close-btn{
       display: none;
